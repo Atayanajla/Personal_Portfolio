@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+:root {
+  --bg-portfolio: #f8fafc;     
+  --text-portfolio: #0f172a;   
+}
+
+.dark {
+  --bg-portfolio: #030712;     
+  --text-portfolio: #f8fafc;   
+}
+
+@utility bg-portfolio {
+  background-color: var(--bg-portfolio);
+}
+
+@utility text-portfolio {
+  color: var(--text-portfolio);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-scaleUp {
+  animation: scaleUp 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}

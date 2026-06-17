@@ -1,0 +1,55 @@
+export const allExperiences = [
+  {
+    id: 1,
+    type: "WORK",
+    title: "Enterprise Application Development Laboratory",
+    subtitle: "Web Application Development Practicum Assistant - Contract",
+    date: "Sep 2023 - Jan 2024",
+    image: "./src/assets/img/WAD.jpg",
+    bullets: [
+      "Actively managed and mentored 18 students split into dedicated groups across 3 classes. Provided hands-on technical guidance and code debugging to help students overcome development roadblocks. Responsible for official grading and performance evaluation, while also maintaining a collaborative lab environment by supporting students from other groups when needed.",
+      "Collaborated within a team to design and develop core educational materials for Module 3. Focused on creating comprehensive guides for PHP CRUD implementation and structuring real-world case studies for student journals to ensure actionable learning.",
+      "Worked closely with the media team to design and build standardized visual and administrative assets. Created professional PPT templates, module layouts, and automated photo collection forms, which successfully optimized laboratory workflows and data management.",
+    ],
+  },
+  {
+    id: 2,
+    type: "WORK",
+    title: "PT Industri Telekomunikasi Indonesia",
+    subtitle: "IT Product Development - Intern",
+    date: "Jul 2023 - Sep 2023",
+    image: "./src/assets/img/KP.jpg",
+    bullets: [
+      "Developed features for the monitoring application using CodeIgniter 4 to support internal business processes, specifically in monitoring goods delivery and documentation.",
+      "Handled the integration between the application's back-end and the company’s Oracle Database using DBeaver to ensure secure and accurate data retrieval.",
+      "Performed rigorous testing to eliminate bugs and ensure smooth functionality before deployment.",
+    ],
+  },
+  {
+    id: 3,
+    type: "ORGANIZATION",
+    title: "Enterprise Infrastructure Management Laboratory",
+    subtitle: "Operations Division",
+    date: "Nov 2021 - Jan 2024",
+    image: "./src/assets/img/EIM.jpg",
+    bullets: [
+      "Oversaw official social media channels, designing and publishing educational 'EIM FYI' content specifically focused on network infrastructure concepts and infrastructure updates.",
+      "Collaborated with a team to conduct a research project titled 'Analysis of NMAP Implementation on Network System Monitoring,' focusing on network security and host discovery.",
+      "Partnered with the HMSI Relations Bureau for the 'Best Practice Cisco Packet Tracer and Sharing Session' public lecture. Responsible for designing the official certificates, virtual backgrounds, and executing the overall event documentation.",
+      "Represented the laboratory as a speaker/committee member to present lab workflows, infrastructure concepts, and programs to sophomore students.",
+    ],
+  },
+  {
+    id: 4,
+    type: "ORGANIZATION",
+    title: "Enterprise Data Management Laboratory",
+    subtitle: "Social Media Division",
+    date: "Aug 2022 - Sep 2023",
+    image: "./src/assets/img/EDE.jpg",
+    bullets: [
+      "Responsible for managing all laboratory social media channels, designing creative digital assets, and leading the documentation and publication workflows for both internal and external events.",
+      "Partnered with the ESD Laboratory media team for a joint industrial visit to Blibli, co-designing official event banners and capturing key visual moments throughout the event.",
+      "Served as the primary publication and documentation committee for the 'Hands-on Session: Visualization Using Tableau' event, executing real-time live reports and photography for Instagram.",
+    ],
+  },
+];
