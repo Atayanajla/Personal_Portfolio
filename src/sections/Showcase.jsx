@@ -13,14 +13,14 @@ const Showcase = () => {
 
   const certificates = [
     {
-      src: "./src/assets/certificate/BNSP.jpg",
+      src: "/certificate/BNSP.jpg",
       alt: "Sertifikat BNSP Competency",
     },
-    { src: "./src/assets/certificate/sertif1.jpg", alt: "Sertifikat 1" },
-    { src: "./src/assets/certificate/sertif2.jpg", alt: "Sertifikat 2" },
-    { src: "./src/assets/certificate/sertif3.jpg", alt: "Sertifikat 3" },
-    { src: "./src/assets/certificate/sertif4.jpg", alt: "Sertifikat 4" },
-    { src: "./src/assets/certificate/sertif5.jpg", alt: "Sertifikat 5" },
+    { src: "/certificate/sertif1.jpg", alt: "Sertifikat 1" },
+    { src: "/certificate/sertif2.jpg", alt: "Sertifikat 2" },
+    { src: "/certificate/sertif3.jpg", alt: "Sertifikat 3" },
+    { src: "/certificate/sertif4.jpg", alt: "Sertifikat 4" },
+    { src: "/certificate/sertif5.jpg", alt: "Sertifikat 5" },
   ];
 
   return (
@@ -120,7 +120,7 @@ const Showcase = () => {
               <div className="flex flex-col items-center gap-2">
                 <div className="w-20 h-20  dark:bg-slate-800/10 rounded-2xl flex items-center justify-center p-4 border border-slate-200/50 dark:border-slate-700/50 shadow-sm transition-transform hover:scale-105">
                   <img
-                    src="/src/assets/icons/html-5.png"
+                    src="/icons/html-5.png"
                     alt="HTML"
                     className="w-full h-full object-contain"
                   />
@@ -131,7 +131,7 @@ const Showcase = () => {
               <div className="flex flex-col items-center gap-2">
                 <div className="w-20 h-20  dark:bg-slate-800/10 rounded-2xl flex items-center justify-center p-4 border border-slate-200/50 dark:border-slate-700/50 shadow-sm transition-transform hover:scale-105">
                   <img
-                    src="/src/assets/icons/css.png"
+                    src="/icons/css.png"
                     alt="CSS"
                     className="w-full h-full object-contain"
                   />
@@ -142,7 +142,7 @@ const Showcase = () => {
               <div className="flex flex-col items-center gap-2">
                 <div className="w-20 h-20  dark:bg-slate-800/10 rounded-2xl flex items-center justify-center p-4 border border-slate-200/50 dark:border-slate-700/50 shadow-sm transition-transform hover:scale-105">
                   <img
-                    src="/src/assets/icons/java-script.png"
+                    src="/icons/java-script.png"
                     alt="JS"
                     className="w-full h-full object-contain"
                   />
@@ -153,7 +153,7 @@ const Showcase = () => {
               <div className="flex flex-col items-center gap-2">
                 <div className="w-20 h-20  dark:bg-slate-800/10 rounded-2xl flex items-center justify-center p-4 border border-slate-200/50 dark:border-slate-700/50 shadow-sm transition-transform hover:scale-105">
                   <img
-                    src="/src/assets/icons/php.png"
+                    src="/icons/php.png"
                     alt="PHP"
                     className="w-full h-full object-contain"
                   />
@@ -164,7 +164,7 @@ const Showcase = () => {
               <div className="flex flex-col items-center gap-2">
                 <div className="w-20 h-20  dark:bg-slate-800/10 rounded-2xl flex items-center justify-center p-4 border border-slate-200/50 dark:border-slate-700/50 shadow-sm transition-transform hover:scale-105">
                   <img
-                    src="/src/assets/icons/python.png"
+                    src="/icons/python.png"
                     alt="Python"
                     className="w-full h-full object-contain"
                   />
@@ -175,7 +175,7 @@ const Showcase = () => {
               <div className="flex flex-col items-center gap-2">
                 <div className="w-20 h-20  dark:bg-slate-800/10 rounded-2xl flex items-center justify-center p-4 border border-slate-200/50 dark:border-slate-700/50 shadow-sm transition-transform hover:scale-105">
                   <img
-                    src="/src/assets/icons/Laravel.png"
+                    src="/icons/Laravel.png"
                     alt="Laravel"
                     className="w-full h-full object-contain"
                   />
@@ -186,7 +186,7 @@ const Showcase = () => {
               <div className="flex flex-col items-center gap-2">
                 <div className="w-20 h-20  dark:bg-slate-800/10 rounded-2xl flex items-center justify-center p-4 border border-slate-200/50 dark:border-slate-700/50 shadow-sm transition-transform hover:scale-105">
                   <img
-                    src="/src/assets/icons/react.png"
+                    src="/icons/react.png"
                     alt="React"
                     className="w-full h-full object-contain"
                   />
@@ -197,7 +197,7 @@ const Showcase = () => {
               <div className="flex flex-col items-center gap-2">
                 <div className="w-20 h-20  dark:bg-slate-800/10 rounded-2xl flex items-center justify-center p-4 border border-slate-200/50 dark:border-slate-700/50 shadow-sm transition-transform hover:scale-105">
                   <img
-                    src="/src/assets/icons/database.png"
+                    src="/icons/database.png"
                     alt="MySQL"
                     className="w-full h-full object-contain"
                   />
@@ -208,7 +208,7 @@ const Showcase = () => {
               <div className="flex flex-col items-center gap-2">
                 <div className="w-20 h-20  dark:bg-slate-800/10 rounded-2xl flex items-center justify-center p-4 border border-slate-200/50 dark:border-slate-700/50 shadow-sm transition-transform hover:scale-105">
                   <img
-                    src="/src/assets/icons/react.png"
+                    src="/icons/react.png"
                     alt="React"
                     className="w-full h-full object-contain"
                   />
@@ -219,7 +219,7 @@ const Showcase = () => {
               <div className="flex flex-col items-center gap-2">
                 <div className="w-20 h-20  dark:bg-slate-800/10 rounded-2xl flex items-center justify-center p-4 border border-slate-200/50 dark:border-slate-700/50 shadow-sm transition-transform hover:scale-105">
                   <img
-                    src="/src/assets/icons/Tailwind.png"
+                    src="/icons/Tailwind.png"
                     alt="Tailwind"
                     className="w-full h-full object-contain"
                   />
@@ -230,7 +230,7 @@ const Showcase = () => {
               <div className="flex flex-col items-center gap-2">
                 <div className="w-20 h-20  dark:bg-slate-800/10 rounded-2xl flex items-center justify-center p-4 border border-slate-200/50 dark:border-slate-700/50 shadow-sm transition-transform hover:scale-105">
                   <img
-                    src="/src/assets/icons/Bootstrap.png"
+                    src="/icons/Bootstrap.png"
                     alt="Bootstrap"
                     className="w-full h-full object-contain"
                   />
@@ -241,7 +241,7 @@ const Showcase = () => {
               <div className="flex flex-col items-center gap-2">
                 <div className="w-20 h-20  dark:bg-slate-800/10 rounded-2xl flex items-center justify-center p-4 border border-slate-200/50 dark:border-slate-700/50 shadow-sm transition-transform hover:scale-105">
                   <img
-                    src="/src/assets/icons/Vercel.png"
+                    src="/icons/Vercel.png"
                     alt="Vercel"
                     className="w-full h-full object-contain"
                   />
@@ -252,7 +252,7 @@ const Showcase = () => {
               <div className="flex flex-col items-center gap-2">
                 <div className="w-20 h-20  dark:bg-slate-800/10 rounded-2xl flex items-center justify-center p-4 border border-slate-200/50 dark:border-slate-700/50 shadow-sm transition-transform hover:scale-105">
                   <img
-                    src="/src/assets/icons/Vitejs.png"
+                    src="/icons/Vitejs.png"
                     alt="Vitejs"
                     className="w-full h-full object-contain"
                   />
@@ -263,7 +263,7 @@ const Showcase = () => {
               <div className="flex flex-col items-center gap-2">
                 <div className="w-20 h-20  dark:bg-slate-800/10 rounded-2xl flex items-center justify-center p-4 border border-slate-200/50 dark:border-slate-700/50 shadow-sm transition-transform hover:scale-105">
                   <img
-                    src="/src/assets/icons/codeigniter.png"
+                    src="/icons/codeigniter.png"
                     alt="codeigniter"
                     className="w-full h-full object-contain"
                   />
@@ -274,7 +274,7 @@ const Showcase = () => {
               <div className="flex flex-col items-center gap-2">
                 <div className="w-20 h-20  dark:bg-slate-800/10 rounded-2xl flex items-center justify-center p-4 border border-slate-200/50 dark:border-slate-700/50 shadow-sm transition-transform hover:scale-105">
                   <img
-                    src="/src/assets/icons/postman.jpg"
+                    src="/icons/postman.jpg"
                     alt="postman"
                     className="w-full h-full object-contain"
                   />
@@ -285,7 +285,7 @@ const Showcase = () => {
               <div className="flex flex-col items-center gap-2">
                 <div className="w-20 h-20  dark:bg-slate-800/10 rounded-2xl flex items-center justify-center p-4 border border-slate-200/50 dark:border-slate-700/50 shadow-sm transition-transform hover:scale-105">
                   <img
-                    src="/src/assets/icons/figma.png"
+                    src="/icons/figma.png"
                     alt="figma"
                     className="w-full h-full object-contain"
                   />
@@ -296,7 +296,7 @@ const Showcase = () => {
               <div className="flex flex-col items-center gap-2">
                 <div className="w-20 h-20  dark:bg-slate-800/10 rounded-2xl flex items-center justify-center p-4 border border-slate-200/50 dark:border-slate-700/50 shadow-sm transition-transform hover:scale-105">
                   <img
-                    src="/src/assets/icons/Canva.png"
+                    src="/icons/Canva.png"
                     alt="Canva"
                     className="w-full h-full object-contain"
                   />

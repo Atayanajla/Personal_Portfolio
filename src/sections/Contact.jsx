@@ -15,7 +15,7 @@ const Contact = () => {
               <div className="flex items-center gap-4 p-4 bg-gradient-to-r from-red-500 via-rose-600 to-amber-600 rounded-2xl text-white shadow-md shadow-red-500/10">
                 <div className="w-12 h-12 bg-white/20 backdrop-blur-sm rounded-xl flex items-center justify-center shrink-0">
                   <img
-                    src="./src/assets/icons/gmail.png"
+                    src="/icons/gmail.png"
                     alt="email"
                     className="w-6 h-6 object-contain"
                   />
@@ -31,7 +31,7 @@ const Contact = () => {
               <div className="flex items-center gap-4 p-4 bg-gradient-to-r from-emerald-500 via-green-600 to-teal-600 rounded-2xl text-white shadow-md shadow-emerald-500/10">
                 <div className="w-12 h-12 bg-white/20 backdrop-blur-sm rounded-xl flex items-center justify-center shrink-0">
                   <img
-                    src="./src/assets/icons/whatsapp.png"
+                    src="/icons/whatsapp.png"
                     alt="WhatsApp"
                     className="w-6 h-6 object-contain"
                   />
@@ -92,7 +92,7 @@ const Contact = () => {
             >
               <div className="w-12 h-12 bg-white/20 backdrop-blur-sm rounded-xl flex items-center justify-center shrink-0">
                 <img
-                  src="./src/assets/icons/linkedin.png"
+                  src="/icons/linkedin.png"
                   alt="linkedin"
                   className="w-6 h-6 object-contain"
                 />
@@ -113,7 +113,7 @@ const Contact = () => {
             >
               <div className="w-12 h-12 bg-white/10 backdrop-blur-sm rounded-xl flex items-center justify-center shrink-0">
                 <img
-                  src="./src/assets/icons/github.png"
+                  src="/icons/github.png"
                   alt="github"
                   className="w-6 h-6 object-contain brightness-0 invert-0"
                 />
@@ -133,7 +133,7 @@ const Contact = () => {
             >
               <div className="w-12 h-12 bg-white/20 backdrop-blur-sm rounded-xl flex items-center justify-center shrink-0">
                 <img
-                  src="./src/assets/icons/instagram.png"
+                  src="/icons/instagram.png"
                   alt="instagram"
                   className="w-6 h-6 object-contain"
                 />
