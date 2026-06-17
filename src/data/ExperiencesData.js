@@ -5,7 +5,7 @@ export const allExperiences = [
     title: "Enterprise Application Development Laboratory",
     subtitle: "Web Application Development Practicum Assistant - Contract",
     date: "Sep 2023 - Jan 2024",
-    image: "/imgs/wad.jpg",
+    image: "/imgs/WAD.jpg",
     bullets: [
       "Actively managed and mentored 18 students split into dedicated groups across 3 classes. Provided hands-on technical guidance and code debugging to help students overcome development roadblocks. Responsible for official grading and performance evaluation, while also maintaining a collaborative lab environment by supporting students from other groups when needed.",
       "Collaborated within a team to design and develop core educational materials for Module 3. Focused on creating comprehensive guides for PHP CRUD implementation and structuring real-world case studies for student journals to ensure actionable learning.",
@@ -18,7 +18,7 @@ export const allExperiences = [
     title: "PT Industri Telekomunikasi Indonesia",
     subtitle: "IT Product Development - Intern",
     date: "Jul 2023 - Sep 2023",
-    image: "/imgs/kp.jpg",
+    image: "/imgs/KP.jpg",
     bullets: [
       "Developed features for the monitoring application using CodeIgniter 4 to support internal business processes, specifically in monitoring goods delivery and documentation.",
       "Handled the integration between the application's back-end and the company’s Oracle Database using DBeaver to ensure secure and accurate data retrieval.",
@@ -31,7 +31,7 @@ export const allExperiences = [
     title: "Enterprise Infrastructure Management Laboratory",
     subtitle: "Operations Division",
     date: "Nov 2021 - Jan 2024",
-    image: "/imgs/eim.jpg",
+    image: "/imgs/EIM.jpg",
     bullets: [
       "Oversaw official social media channels, designing and publishing educational 'EIM FYI' content specifically focused on network infrastructure concepts and infrastructure updates.",
       "Collaborated with a team to conduct a research project titled 'Analysis of NMAP Implementation on Network System Monitoring,' focusing on network security and host discovery.",
@@ -45,7 +45,7 @@ export const allExperiences = [
     title: "Enterprise Data Management Laboratory",
     subtitle: "Social Media Division",
     date: "Aug 2022 - Sep 2023",
-    image: "/imgs/ede.jpg",
+    image: "/imgs/EDE.jpg",
     bullets: [
       "Responsible for managing all laboratory social media channels, designing creative digital assets, and leading the documentation and publication workflows for both internal and external events.",
       "Partnered with the ESD Laboratory media team for a joint industrial visit to Blibli, co-designing official event banners and capturing key visual moments throughout the event.",

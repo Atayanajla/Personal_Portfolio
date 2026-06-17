@@ -132,7 +132,7 @@ const AboutMe = () => {
               {/* Button CV dipindahkan ke sini (di bawah teks) */}
               <div className="pt-2">
                 <a
-                  href="./src/assets/CV.pdf"
+                  href="/CV.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block"
