@@ -5,7 +5,7 @@ export const allExperiences = [
     title: "Enterprise Application Development Laboratory",
     subtitle: "Web Application Development Practicum Assistant - Contract",
     date: "Sep 2023 - Jan 2024",
-    image: "./public/assets/img/WAD.jpg",
+    image: "./src/assets/img/WAD.jpg",
     bullets: [
       "Actively managed and mentored 18 students split into dedicated groups across 3 classes. Provided hands-on technical guidance and code debugging to help students overcome development roadblocks. Responsible for official grading and performance evaluation, while also maintaining a collaborative lab environment by supporting students from other groups when needed.",
       "Collaborated within a team to design and develop core educational materials for Module 3. Focused on creating comprehensive guides for PHP CRUD implementation and structuring real-world case studies for student journals to ensure actionable learning.",

@@ -38,8 +38,8 @@ const AboutMe = () => {
               <Lanyard
                 position={[0, 0, 20]}
                 gravity={[0, -40, 0]}
-                frontImage="/img/LanyardD.png"
-                backImage="/img/LanyardB.png"
+                frontImage="/imgs/LanyardD.png"
+                backImage="/imgs/LanyardB.png"
                 imageFit="cover"
                 imageScale={0.85}
               />
