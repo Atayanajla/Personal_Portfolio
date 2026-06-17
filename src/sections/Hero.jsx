@@ -2,7 +2,7 @@
 import TextType from "../components/TextType";
 import ProfileCard from "../components/ProfileCard";
 import Button from "../components/Button";
-import ImgProfile from "./src/assets/img/Formal.png";
+
 
 const Hero = () => {
   // const navigate = useNavigate();
@@ -81,7 +81,7 @@ const Hero = () => {
             title="Software Developer"
             handle="atayanajla"
             contactText="Contact Me"
-            avatarUrl={ImgProfile}
+            avatarUrl="/imgs/Formal.png"
             showUserInfo={true}
             enableTilt={true}
             enableMobileTilt={true}
