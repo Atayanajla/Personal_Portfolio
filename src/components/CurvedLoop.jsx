@@ -109,7 +109,7 @@ const CurvedLoop = ({
     >
       <svg
         className="select-none w-full overflow-visible block font-bold uppercase tracking-wide text-[3rem] leading-none"
-        viewBox="0 0 1460 5"
+        style={{ width: '95%', height: '70px' }}
         
       >
         <text ref={measureRef} xmlSpace="preserve" style={{ visibility: 'hidden', opacity: 0, pointerEvents: 'none' }}>

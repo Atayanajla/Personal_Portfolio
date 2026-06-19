@@ -21,6 +21,7 @@ const Showcase = () => {
     { src: "/certificate/sertif3.jpg", alt: "Sertifikat 3" },
     { src: "/certificate/sertif4.jpg", alt: "Sertifikat 4" },
     { src: "/certificate/sertif5.jpg", alt: "Sertifikat 5" },
+    { src: "/certificate/sertif6.jpg", alt: "Sertifikat 6" },
   ];
 
   return (
@@ -453,7 +454,7 @@ const Showcase = () => {
               ).map((cert, index) => (
                 <div
                   key={index}
-                  onClick={() => setSelectedImage(cert.src)} 
+                  onClick={() => setSelectedImage(cert.src)}
                   className="aspect-[4/3] bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl overflow-hidden shadow-sm hover:scale-[1.02] transition cursor-zoom-in group relative"
                 >
                   <img

@@ -1,6 +1,18 @@
 export const allExperiences = [
-  {
+    {
     id: 1,
+    type: "WORK",
+    title: "PT Arupadhatu Adisesanti",
+    subtitle: "AdminTechnician - Contract",
+    date: "Sep 2023 - Jan 2024",
+    image: null,
+    bullets: [
+      "Inputting weekly field data from the bridge construction project, including concrete volume, reinforcement steel volume, other materials, and total on-site labor utilization.",
+      "Compiling and summarizing periodic progress reports based on field data submissions for the Air Gadang Bridge Construction Project."
+    ],
+  },
+  {
+    id: 2,
     type: "WORK",
     title: "Enterprise Application Development Laboratory",
     subtitle: "Web Application Development Practicum Assistant - Contract",
@@ -13,7 +25,7 @@ export const allExperiences = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     type: "WORK",
     title: "PT Industri Telekomunikasi Indonesia",
     subtitle: "IT Product Development - Intern",
@@ -26,7 +38,7 @@ export const allExperiences = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     type: "ORGANIZATION",
     title: "Enterprise Infrastructure Management Laboratory",
     subtitle: "Operations Division",
@@ -40,7 +52,7 @@ export const allExperiences = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     type: "ORGANIZATION",
     title: "Enterprise Data Management Laboratory",
     subtitle: "Social Media Division",

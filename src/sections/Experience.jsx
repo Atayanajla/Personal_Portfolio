@@ -40,23 +40,26 @@ const Experience = () => {
               >
                 <div className="absolute left-4 md:left-1/2 transform -translate-x-[5px] md:-translate-x-1/2 w-3 h-3 bg-blue-500 rounded-full shadow-[0_0_10px_#3b82f6] z-10"></div>
 
-                <div className="w-full md:w-1/2 flex justify-start md:justify-center pl-10 md:pl-0">
-                  <button
-                    onClick={() => setSelectedImage(exp.image)}
-                    className="relative w-36 h-48 md:w-48 md:h-64 flex items-center justify-center cursor-zoom-in outline-none transition-transform duration-300 hover:scale-105 group"
-                  >
-                    <div className="absolute inset-[-10px] bg-blue-500/30 rounded-3xl blur-xl opacity-85 group-hover:opacity-100 group-hover:bg-blue-400/40 transition duration-500 z-0 pointer-events-none"></div>
-                    <div className="absolute inset-[-5px] bg-cyan-400/20 rounded-3xl blur-2xl opacity-75 group-hover:opacity-100 transition duration-500 z-0 pointer-events-none"></div>
-                    <div className="relative w-full h-full rounded-2xl border border-slate-700/60 overflow-hidden z-10 shadow-2xl group-hover:border-blue-400 transition-colors duration-300">
-                      <img
-                        src={exp.image}
-                        alt={exp.title}
-                        className="w-full h-full object-cover"
-                      />
-                    </div>
-                  </button>
-                </div>
-
+                {exp.image ? (
+                  <div className="w-full md:w-1/2 flex justify-start md:justify-center pl-10 md:pl-0">
+                    <button
+                      onClick={() => setSelectedImage(exp.image)}
+                      className="relative w-36 h-48 md:w-48 md:h-64 flex items-center justify-center cursor-zoom-in outline-none transition-transform duration-300 hover:scale-105 group"
+                    >
+                      <div className="absolute inset-[-10px] bg-blue-500/30 rounded-3xl blur-xl opacity-85 group-hover:opacity-100 group-hover:bg-blue-400/40 transition duration-500 z-0 pointer-events-none"></div>
+                      <div className="absolute inset-[-5px] bg-cyan-400/20 rounded-3xl blur-2xl opacity-75 group-hover:opacity-100 transition duration-500 z-0 pointer-events-none"></div>
+                      <div className="relative w-full h-full rounded-2xl border border-slate-700/60 overflow-hidden z-10 shadow-2xl group-hover:border-blue-400 transition-colors duration-300">
+                        <img
+                          src={exp.image}
+                          alt={exp.title}
+                          className="w-full h-full object-cover"
+                        />
+                      </div>
+                    </button>
+                  </div>
+                ) : (
+                  <div className="hidden md:block md:w-1/2"></div>
+                )}
                 <div className="w-full md:w-1/2 pl-10 md:pl-0 text-left">
                   <div className="p-6 bg-[#120F17]/10 backdrop-blur-sm border border-slate-800/80 rounded-2xl shadow-xl hover:border-slate-700/60 transition-all duration-300">
                     <span className="text-[10px] font-extrabold tracking-widest px-2.5 py-1 rounded-full bg-slate-800 text-slate-400 border border-slate-700">
@@ -117,7 +120,7 @@ const Experience = () => {
           className={`absolute bottom-0 left-0 right-0 flex flex-col items-center justify-end pb-2 pointer-events-none transition-all duration-500 z-20 ${
             showAll
               ? "h-0 overflow-hidden"
-              : "h-48 bg-gradient-to-t from-[#120F17] via-[#120F17]/90 via-[#120F17]/50 to-transparent backdrop-blur-[2px]"
+              : "h-40 bg-gradient-to-t from-[#120F17] via-[#120F17]/50 via-[#120F17]/50 to-transparent backdrop-blur-[2px] translate-y-14"
           }`}
         >
           {!showAll && (
