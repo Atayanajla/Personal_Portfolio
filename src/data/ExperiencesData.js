@@ -3,7 +3,7 @@ export const allExperiences = [
     id: 1,
     type: "WORK",
     title: "PT Arupadhatu Adisesanti",
-    subtitle: "AdminTechnician - Contract",
+    subtitle: "Technical Administrator - Contract",
     date: "Sep 2023 - Jan 2024",
     image: null,
     bullets: [

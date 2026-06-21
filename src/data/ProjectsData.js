@@ -80,7 +80,7 @@ export const projectsData = [
     ],
     description:
       "This internship project focused on web development, specifically the implementation of monitoring features and input forms for the BPB (Proof of Goods Delivery) website. Developed using the CodeIgniter 4 framework, the project integrated the web application with an Oracle database, utilizing DBeaver for database management, testing, and data validation. The system was designed to support efficient recording and monitoring of goods delivery processes.",
-    codeLink: "null",
+    codeLink: null,
     webLink: null,
   },
   {
@@ -106,7 +106,7 @@ export const projectsData = [
     ],
     description:
       "This practical assignment project involved the development of a web-based car rental service platform called Vehicle Reservation EAD. The platform was designed and built to digitize the vehicle rental process, allowing customers to conveniently explore available vehicles, make reservations online, and streamline the overall booking and transaction experience.",
-    codeLink: "null",
+    codeLink: null,
     webLink: null,
   },
   {
@@ -160,7 +160,7 @@ export const projectsData = [
     ],
     description:
       "This project involves the development of a personal portfolio website that serves as a digital representation of my skills, experiences, and completed projects. The website was built using React.js to create a modular component-based architecture and Tailwind CSS to deliver a modern, responsive design. It also integrates animation components from ReactBits to enhance the user experience with interactive and dynamic visual transitions.",
-    codeLink: null,
-    webLink: null,
+    codeLink: "https://github.com/Atayanajla/Personal_Portfolio.git",
+    webLink: "https://personal-portfolio-ataya-najla.vercel.app/",
   },
 ];
