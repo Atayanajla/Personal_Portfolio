@@ -22,6 +22,7 @@ const Showcase = () => {
     { src: "/certificate/sertif4.jpg", alt: "Sertifikat 4" },
     { src: "/certificate/sertif5.jpg", alt: "Sertifikat 5" },
     { src: "/certificate/sertif6.jpg", alt: "Sertifikat 6" },
+    { src: "/certificate/sertif6.jpg", alt: "Sertifikat 7" },
   ];
 
   return (
