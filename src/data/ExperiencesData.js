@@ -7,7 +7,7 @@ export const allExperiences = [
     date: "Sep 2023 - Jan 2024",
     image: null,
     bullets: [
-      "Inputting weekly field data from the bridge construction project, including concrete volume, reinforcement steel volume, other materials, and total on-site labor utilization.",
+      "Input weekly field data from the bridge construction project, including concrete volume, reinforcement steel volume, materials, and total on-site labor utilization.",
       "Compiling and summarizing periodic progress reports based on field data submissions for the Air Gadang Bridge Construction Project."
     ],
   },
@@ -45,10 +45,11 @@ export const allExperiences = [
     date: "Nov 2021 - Jan 2024",
     image: "/imgs/EIM.jpg",
     bullets: [
-      "Oversaw official social media channels, designing and publishing educational 'EIM FYI' content specifically focused on network infrastructure concepts and infrastructure updates.",
+      "Managed all EIM social media platforms and produced 'EIM FYI' educational content regarding Enterprise Infrastructure Management.",
       "Collaborated with a team to conduct a research project titled 'Analysis of NMAP Implementation on Network System Monitoring,' focusing on network security and host discovery.",
       "Partnered with the HMSI Relations Bureau for the 'Best Practice Cisco Packet Tracer and Sharing Session' public lecture. Responsible for designing the official certificates, virtual backgrounds, and executing the overall event documentation.",
       "Represented the laboratory as a speaker/committee member to present lab workflows, infrastructure concepts, and programs to sophomore students.",
+      "Co-conducted technical research titled 'Analysis of NMAP Implementation on Network System Monitoring' to explore active network mapping and monitoring solutions."
     ],
   },
   {
