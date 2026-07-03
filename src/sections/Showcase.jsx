@@ -315,9 +315,9 @@ const Showcase = () => {
               {visibleProjects.map((project) => (
                 <div
                   key={project.id}
-                  className="relative flex w-full flex-col rounded-2xl bg-slate-900/10 backdrop-blur-md border border-slate-800/80  shadow-xl hover:shadow-blue-500/10 transition-all duration-300 hover:-translate-y-2 group"
+                  className="relative flex w-full flex-col rounded-2xl bg-[var(--bg-portfolio)]/70 backdrop-blur-md border border-slate-300/60 dark:border-slate-800/80 shadow-xl hover:shadow-blue-500/10 transition-all duration-300 hover:-translate-y-2 group"
                 >
-                  <div className="relative mx-4 -mt-6 h-44 overflow-hidden rounded-xl border border-slate-700/50 shadow-lg bg-slate-950">
+                  <div className="relative mx-4 -mt-6 h-44 overflow-hidden rounded-xl border border-slate-300/50 dark:border-slate-700/50 shadow-lg bg-[var(--bg-portfolio)]">
                     <img
                       src={project.images[0]}
                       alt={project.title}
@@ -326,23 +326,21 @@ const Showcase = () => {
                     <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
                   </div>
 
-                  {/* BAGIAN TENGAH: KONTEN TEKS */}
                   <div className="p-6 flex-1 flex flex-col justify-between space-y-4">
                     <div>
-                      <h5 className="mb-2 line-clamp-1 font-sans text-xl font-bold tracking-wide group-hover:text-blue-400 transition-colors duration-300">
+                      <h5 className="mb-2 line-clamp-1 font-sans text-xl font-bold tracking-wide text-[var(--text-portfolio)] group-hover:text-blue-400 transition-colors duration-300">
                         {project.title}
                       </h5>
-                      <p className="font-sans text-sm font-light leading-relaxed line-clamp-3">
+                      <p className="font-sans text-sm font-light leading-relaxed line-clamp-3 text-[var(--text-portfolio)]/70">
                         {project.description}
                       </p>
                     </div>
 
-                    {/* Tagging Tech Stack */}
                     <div className="flex flex-wrap gap-1.5 pt-2">
                       {project.tags.slice(0, 3).map((tag, idx) => (
                         <span
                           key={idx}
-                          className="text-[10px] font-medium bg-blue-500/10 text-blue-400 border border-blue-500/20 px-2 py-0.5 rounded-md"
+                          className="text-[10px] font-medium bg-slate-300/50 dark:bg-slate-800 text-slate-600 dark:text-slate-400 px-1.5 py-0.5 rounded-md"
                         >
                           {tag}
                         </span>
@@ -355,10 +353,9 @@ const Showcase = () => {
                     </div>
                   </div>
 
-                  {/* BAGIAN BAWAH: TOMBOL DETAIL */}
                   <div className="p-6 pt-0">
                     <button
-                      onClick={() => setSelectedProject(project)} // Menampilkan detail pop-up project yang di-klik
+                      onClick={() => setSelectedProject(project)}
                       className="group/btn relative w-full inline-flex items-center justify-center px-4 py-2.5 text-xs font-bold text-white rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 shadow-lg shadow-blue-500/20 hover:shadow-blue-500/30 transition-all duration-300 hover:-translate-y-0.5 cursor-pointer"
                     >
                       <span className="relative flex items-center gap-2">
@@ -388,13 +385,12 @@ const Showcase = () => {
               />
             </div>
 
-            {/* PANEL NAVIGASI DI POJOK KIRI BAWAH (Tanpa buram, langsung cut, Auto-Scroll) */}
             {projectsData.length > 6 && (
               <div className="flex justify-start pt-4 pl-2 animate-fadeIn">
                 {!showAll ? (
                   <button
                     onClick={() => setShowAll(true)}
-                    className="group flex items-center gap-2 text-xs md:text-sm font-bold tracking-wide text-blue-400 hover:text-blue-300 transition-colors duration-300 cursor-pointer"
+                    className="group flex items-center gap-2 text-xs md:text-sm font-bold tracking-wide text-[var(--text-portfolio)] hover:text-blue-500 dark:hover:text-slate-300 transition-colors duration-300 cursor-pointer"
                   >
                     View All Projects
                     <svg
@@ -415,12 +411,11 @@ const Showcase = () => {
                   <button
                     onClick={() => {
                       setShowAll(false);
-                      // Otomatis scroll ke atas section project secara halus agar konsisten dengan Experience
                       document
-                        .getElementById("showcase") // 🌟 Sesuaikan dengan ID pembungkus paling atas portofoliomu jika berbeda
+                        .getElementById("showcase")
                         ?.scrollIntoView({ behavior: "smooth" });
                     }}
-                    className="group flex items-center gap-2 text-xs md:text-sm font-bold tracking-wide hover:text-slate-300 transition-colors duration-300 cursor-pointer"
+                    className="group flex items-center gap-2 text-xs md:text-sm font-bold tracking-wide text-[var(--text-portfolio)] hover:text-blue-500 dark:hover:text-slate-300 transition-colors duration-300 cursor-pointer"
                   >
                     <svg
                       viewBox="0 0 24 24"
@@ -473,7 +468,7 @@ const Showcase = () => {
                 {!showAllCertificates ? (
                   <button
                     onClick={() => setShowAllCertificates(true)}
-                    className="group flex items-center gap-2 text-xs md:text-sm font-bold tracking-wide text-blue-400 hover:text-blue-300 transition-colors duration-300 cursor-pointer"
+                    className="group flex items-center gap-2 text-xs md:text-sm font-bold tracking-wide text-[var(--text-portfolio)] hover:text-blue-500 dark:hover:text-slate-300 transition-colors duration-300 cursor-pointer"
                   >
                     View All Certificates
                     <svg
@@ -498,7 +493,7 @@ const Showcase = () => {
                         .getElementById("showcase")
                         ?.scrollIntoView({ behavior: "smooth" });
                     }}
-                    className="group flex items-center gap-2 text-xs md:text-sm font-bold tracking-wide hover:text-slate-300 transition-colors duration-300 cursor-pointer"
+                    className="group flex items-center gap-2 text-xs md:text-sm font-bold tracking-wide text-[var(--text-portfolio)] hover:text-blue-500 dark:hover:text-slate-300 transition-colors duration-300 cursor-pointer"
                   >
                     <svg
                       viewBox="0 0 24 24"
