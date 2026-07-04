@@ -81,7 +81,7 @@ const Hero = () => {
             title="Software Developer"
             handle="atayanajla"
             contactText="Contact Me"
-            avatarUrl="/imgs/Formal.png"
+            avatarUrl="/imgs/fotoformal.png"
             showUserInfo={true}
             enableTilt={true}
             enableMobileTilt={true}

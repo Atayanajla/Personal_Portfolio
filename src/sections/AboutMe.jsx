@@ -58,7 +58,7 @@ const AboutMe = () => {
             colors={["#c084fc", "#f472b6", "#38bdf8"]}
           >
             <div className="p-6 md:p-8 flex flex-col justify-center">
-              <h4 className="text-lg font-bold mb-5 text-center md:text-left text-white tracking-tight">
+              <h4 className="text-lg font-bold mb-5 text-center md:text-left text-[var(--text-portfolio)] tracking-tight">
                 Core Stack
               </h4>
               <div className="flex flex-wrap gap-2.5 justify-center md:justify-start">
@@ -107,10 +107,10 @@ const AboutMe = () => {
             colors={["#c084fc", "#f472b6", "#38bdf8"]}
           >
             <div className="p-6 md:p-8 flex flex-col justify-center space-y-5 text-center md:text-left">
-              <h3 className="text-2xl md:text-3xl font-bold tracking-tight text-white">
+              <h3 h4 className="text-xl md:text-2xl font-bold text-[var(--text-portfolio)]">
                 Who Am I?
               </h3>
-              <div className="space-y-4 text-slate-300 text-sm md:text-base leading-relaxed">
+              <div className="space-y-4 text-[var(--text-portfolio)] text-sm md:text-base leading-relaxed">
                 <p>
                   I’m Ataya Najla, an Information Systems graduate from Telkom
                   University with a strong passion for software development. I
@@ -157,13 +157,13 @@ const AboutMe = () => {
               <span className="text-xs font-bold tracking-widest text-blue-400 uppercase">
                 Graduated
               </span>
-              <h4 className="text-xl md:text-2xl font-bold text-white">
+              <h4 className="text-xl md:text-2xl font-bold text-[var(--text-portfolio)]">
                 Universitas Telkom
               </h4>
               <p className="text-sm md:text-base font-semibold text-blue-400">
                 Bachelor Degree in Information Systems | GPA 3.65 / 4.00
               </p>
-              <p className="text-xs md:text-sm text-slate-400">
+              <p className="text-xs md:text-sm text-[var(--text-portfolio)]">
                 Aug 2020 - Sep 2024
               </p>
             </div>
