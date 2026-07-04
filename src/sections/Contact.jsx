@@ -83,7 +83,6 @@ const Contact = () => {
         <div className="p-6 md:p-8 bg-white dark:bg-slate-900/10 border border-slate-200 dark:border-slate-800 rounded-3xl shadow-xl space-y-6">
           <h4 className="text-xl font-bold text-blue-500">Connect With Me</h4>
           <div className="space-y-4">
-            {/* LinkedIn */}
             <a
               href="https://linkedin.com/in/ataya-najla-883160243"
               target="_blank"

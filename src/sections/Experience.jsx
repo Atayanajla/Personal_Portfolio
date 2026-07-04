@@ -61,8 +61,8 @@ const Experience = () => {
                   <div className="hidden md:block md:w-1/2"></div>
                 )}
                 <div className="w-full md:w-1/2 pl-10 md:pl-0 text-left">
-                  <div className="p-6 bg-[#120F17]/10 backdrop-blur-sm border border-slate-800/80 rounded-2xl shadow-xl hover:border-slate-700/60 transition-all duration-300">
-                    <span className="text-[10px] font-extrabold tracking-widest px-2.5 py-1 rounded-full bg-slate-800 text-slate-400 border border-slate-700">
+                  <div className="p-6 bg-[var(--bg-portfolio)]/70 backdrop-blur-sm border border-slate-300/60 dark:border-slate-800/80 rounded-2xl shadow-xl hover:border-blue-400/50 dark:hover:border-slate-700/60 transition-all duration-300">
+                    <span className="text-[10px] font-extrabold tracking-widest px-2.5 py-1 rounded-full bg-slate-200 dark:bg-slate-800 text-slate-600 dark:text-slate-400 border border-slate-300 dark:border-slate-700">
                       {exp.type}
                     </span>
                     <h4 className="text-lg md:text-xl font-bold  mt-3 leading-snug">

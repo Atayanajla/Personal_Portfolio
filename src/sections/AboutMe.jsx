@@ -26,7 +26,7 @@ const AboutMe = () => {
           <BorderGlow
             edgeSensitivity={30}
             glowColor="40 80 80"
-            backgroundColor="#120F17"
+            backgroundColor="var(--bg-portfolio)"
             borderRadius={28}
             glowRadius={40}
             glowIntensity={1}
@@ -49,7 +49,7 @@ const AboutMe = () => {
           <BorderGlow
             edgeSensitivity={30}
             glowColor="40 80 80"
-            backgroundColor="#120F17"
+            backgroundColor="var(--bg-portfolio)"
             borderRadius={28}
             glowRadius={40}
             glowIntensity={1}
@@ -98,7 +98,7 @@ const AboutMe = () => {
           <BorderGlow
             edgeSensitivity={30}
             glowColor="40 80 80"
-            backgroundColor="#120F17"
+            backgroundColor="var(--bg-portfolio)"
             borderRadius={28}
             glowRadius={40}
             glowIntensity={1}
@@ -129,7 +129,6 @@ const AboutMe = () => {
                 </p>
               </div>
 
-              {/* Button CV dipindahkan ke sini (di bawah teks) */}
               <div className="pt-2">
                 <a
                   href="/CV.pdf"
@@ -143,11 +142,10 @@ const AboutMe = () => {
             </div>
           </BorderGlow>
 
-          {/* KOTAK 4: EDUCATION (Di bawah Who Am I) */}
           <BorderGlow
             edgeSensitivity={30}
             glowColor="40 80 80"
-            backgroundColor="#120F17"
+            backgroundColor="var(--bg-portfolio)"
             borderRadius={28}
             glowRadius={40}
             glowIntensity={1}
