@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { projectsData } from "../data/ProjectsData";
+import { skillData } from "../data/SkillData";
 import ProjectDetailModal from "../components/ProjectDetailModal";
 
 const Showcase = () => {
@@ -119,192 +120,20 @@ const Showcase = () => {
         {activeShowcase === "SKILL" && (
           <div className="max-w-5xl mx-auto animate-fadeIn px-4">
             <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-8 gap-6 justify-items-center">
-              <div className="flex flex-col items-center gap-2">
+              
+              {skillData.map((skill) => (
+              <div key={skill.id} className="flex flex-col items-center gap-2">
                 <div className="w-20 h-20  dark:bg-slate-800/10 rounded-2xl flex items-center justify-center p-4 border border-slate-200/50 dark:border-slate-700/50 shadow-sm transition-transform hover:scale-105">
                   <img
-                    src="/icons/html-5.png"
-                    alt="HTML"
+                    src={skill.image}
+                    alt={skill.name}
                     className="w-full h-full object-contain"
                   />
                 </div>
-                <span className="text-xs font-semibold">HTML</span>
-              </div>
+                <span className="text-xs font-semibold">{skill.name}</span>
+              </div>  
+              ))}
 
-              <div className="flex flex-col items-center gap-2">
-                <div className="w-20 h-20  dark:bg-slate-800/10 rounded-2xl flex items-center justify-center p-4 border border-slate-200/50 dark:border-slate-700/50 shadow-sm transition-transform hover:scale-105">
-                  <img
-                    src="/icons/css.png"
-                    alt="CSS"
-                    className="w-full h-full object-contain"
-                  />
-                </div>
-                <span className="text-xs font-semibold">CSS</span>
-              </div>
-
-              <div className="flex flex-col items-center gap-2">
-                <div className="w-20 h-20  dark:bg-slate-800/10 rounded-2xl flex items-center justify-center p-4 border border-slate-200/50 dark:border-slate-700/50 shadow-sm transition-transform hover:scale-105">
-                  <img
-                    src="/icons/java-script.png"
-                    alt="JS"
-                    className="w-full h-full object-contain"
-                  />
-                </div>
-                <span className="text-xs font-semibold">JavaScript</span>
-              </div>
-
-              <div className="flex flex-col items-center gap-2">
-                <div className="w-20 h-20  dark:bg-slate-800/10 rounded-2xl flex items-center justify-center p-4 border border-slate-200/50 dark:border-slate-700/50 shadow-sm transition-transform hover:scale-105">
-                  <img
-                    src="/icons/php.png"
-                    alt="PHP"
-                    className="w-full h-full object-contain"
-                  />
-                </div>
-                <span className="text-xs font-semibold">PHP</span>
-              </div>
-
-              <div className="flex flex-col items-center gap-2">
-                <div className="w-20 h-20  dark:bg-slate-800/10 rounded-2xl flex items-center justify-center p-4 border border-slate-200/50 dark:border-slate-700/50 shadow-sm transition-transform hover:scale-105">
-                  <img
-                    src="/icons/python.png"
-                    alt="Python"
-                    className="w-full h-full object-contain"
-                  />
-                </div>
-                <span className="text-xs font-semibold">Python</span>
-              </div>
-
-              <div className="flex flex-col items-center gap-2">
-                <div className="w-20 h-20  dark:bg-slate-800/10 rounded-2xl flex items-center justify-center p-4 border border-slate-200/50 dark:border-slate-700/50 shadow-sm transition-transform hover:scale-105">
-                  <img
-                    src="/icons/Laravel.png"
-                    alt="Laravel"
-                    className="w-full h-full object-contain"
-                  />
-                </div>
-                <span className="text-xs font-semibold">Laravel</span>
-              </div>
-
-              <div className="flex flex-col items-center gap-2">
-                <div className="w-20 h-20  dark:bg-slate-800/10 rounded-2xl flex items-center justify-center p-4 border border-slate-200/50 dark:border-slate-700/50 shadow-sm transition-transform hover:scale-105">
-                  <img
-                    src="/icons/react.png"
-                    alt="React"
-                    className="w-full h-full object-contain"
-                  />
-                </div>
-                <span className="text-xs font-semibold">ReactJS</span>
-              </div>
-
-              <div className="flex flex-col items-center gap-2">
-                <div className="w-20 h-20  dark:bg-slate-800/10 rounded-2xl flex items-center justify-center p-4 border border-slate-200/50 dark:border-slate-700/50 shadow-sm transition-transform hover:scale-105">
-                  <img
-                    src="/icons/database.png"
-                    alt="MySQL"
-                    className="w-full h-full object-contain"
-                  />
-                </div>
-                <span className="text-xs font-semibold">MySQL</span>
-              </div>
-
-              <div className="flex flex-col items-center gap-2">
-                <div className="w-20 h-20  dark:bg-slate-800/10 rounded-2xl flex items-center justify-center p-4 border border-slate-200/50 dark:border-slate-700/50 shadow-sm transition-transform hover:scale-105">
-                  <img
-                    src="/icons/react.png"
-                    alt="React"
-                    className="w-full h-full object-contain"
-                  />
-                </div>
-                <span className="text-xs font-semibold">React Native</span>
-              </div>
-
-              <div className="flex flex-col items-center gap-2">
-                <div className="w-20 h-20  dark:bg-slate-800/10 rounded-2xl flex items-center justify-center p-4 border border-slate-200/50 dark:border-slate-700/50 shadow-sm transition-transform hover:scale-105">
-                  <img
-                    src="/icons/Tailwind.png"
-                    alt="Tailwind"
-                    className="w-full h-full object-contain"
-                  />
-                </div>
-                <span className="text-xs font-semibold">Tailwind CSS</span>
-              </div>
-
-              <div className="flex flex-col items-center gap-2">
-                <div className="w-20 h-20  dark:bg-slate-800/10 rounded-2xl flex items-center justify-center p-4 border border-slate-200/50 dark:border-slate-700/50 shadow-sm transition-transform hover:scale-105">
-                  <img
-                    src="/icons/Bootstrap.png"
-                    alt="Bootstrap"
-                    className="w-full h-full object-contain"
-                  />
-                </div>
-                <span className="text-xs font-semibold">Bootstrap</span>
-              </div>
-
-              <div className="flex flex-col items-center gap-2">
-                <div className="w-20 h-20  dark:bg-slate-800/10 rounded-2xl flex items-center justify-center p-4 border border-slate-200/50 dark:border-slate-700/50 shadow-sm transition-transform hover:scale-105">
-                  <img
-                    src="/icons/Vercel.png"
-                    alt="Vercel"
-                    className="w-full h-full object-contain"
-                  />
-                </div>
-                <span className="text-xs font-semibold">Vercel</span>
-              </div>
-
-              <div className="flex flex-col items-center gap-2">
-                <div className="w-20 h-20  dark:bg-slate-800/10 rounded-2xl flex items-center justify-center p-4 border border-slate-200/50 dark:border-slate-700/50 shadow-sm transition-transform hover:scale-105">
-                  <img
-                    src="/icons/Vitejs.png"
-                    alt="Vitejs"
-                    className="w-full h-full object-contain"
-                  />
-                </div>
-                <span className="text-xs font-semibold">Vite</span>
-              </div>
-
-              <div className="flex flex-col items-center gap-2">
-                <div className="w-20 h-20  dark:bg-slate-800/10 rounded-2xl flex items-center justify-center p-4 border border-slate-200/50 dark:border-slate-700/50 shadow-sm transition-transform hover:scale-105">
-                  <img
-                    src="/icons/codeigniter.png"
-                    alt="codeigniter"
-                    className="w-full h-full object-contain"
-                  />
-                </div>
-                <span className="text-xs font-semibold">Codeigniter4</span>
-              </div>
-
-              <div className="flex flex-col items-center gap-2">
-                <div className="w-20 h-20  dark:bg-slate-800/10 rounded-2xl flex items-center justify-center p-4 border border-slate-200/50 dark:border-slate-700/50 shadow-sm transition-transform hover:scale-105">
-                  <img
-                    src="/icons/postman.jpg"
-                    alt="postman"
-                    className="w-full h-full object-contain"
-                  />
-                </div>
-                <span className="text-xs font-semibold">Postman</span>
-              </div>
-
-              <div className="flex flex-col items-center gap-2">
-                <div className="w-20 h-20  dark:bg-slate-800/10 rounded-2xl flex items-center justify-center p-4 border border-slate-200/50 dark:border-slate-700/50 shadow-sm transition-transform hover:scale-105">
-                  <img
-                    src="/icons/figma.png"
-                    alt="figma"
-                    className="w-full h-full object-contain"
-                  />
-                </div>
-                <span className="text-xs font-semibold">figma</span>
-              </div>
-
-              <div className="flex flex-col items-center gap-2">
-                <div className="w-20 h-20  dark:bg-slate-800/10 rounded-2xl flex items-center justify-center p-4 border border-slate-200/50 dark:border-slate-700/50 shadow-sm transition-transform hover:scale-105">
-                  <img
-                    src="/icons/Canva.png"
-                    alt="Canva"
-                    className="w-full h-full object-contain"
-                  />
-                </div>
-                <span className="text-xs font-semibold">Canva</span>
-              </div>
             </div>
           </div>
         )}

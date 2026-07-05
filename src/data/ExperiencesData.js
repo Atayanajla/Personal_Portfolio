@@ -30,7 +30,7 @@ export const allExperiences = [
     title: "PT Industri Telekomunikasi Indonesia",
     subtitle: "IT Product Development - Intern",
     date: "Jul 2023 - Sep 2023",
-    image: "/imgs/inter.jpg",
+    image: null,
     bullets: [
       "Developed features for the monitoring application using CodeIgniter 4 to support internal business processes, specifically in monitoring goods delivery and documentation.",
       "Handled the integration between the application's back-end and the company’s Oracle Database using DBeaver to ensure secure and accurate data retrieval.",
