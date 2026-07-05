@@ -4,7 +4,7 @@ export const allExperiences = [
     type: "WORK",
     title: "PT Arupadhatu Adisesanti",
     subtitle: "Technical Administrator - Contract",
-    date: "Sep 2023 - Jan 2024",
+    date: "Apr 2025 - Dec 2025",
     image: null,
     bullets: [
       "Input weekly field data from the bridge construction project, including concrete volume, reinforcement steel volume, materials, and total on-site labor utilization.",
