@@ -3,14 +3,14 @@ import TextType from "../components/TextType";
 import ProfileCard from "../components/ProfileCard";
 import Button from "../components/Button";
 
-
 const Hero = () => {
   // const navigate = useNavigate();
 
   const myProfessions = [
-    "Front-End Developer",
     "Software Developer",
+    "System Analyst",
     "Web Developer",
+    "Front-End Developer",
     "Tech Enthusiast",
   ];
 

@@ -113,7 +113,7 @@ const AboutMe = () => {
               <div className="space-y-4 text-[var(--text-portfolio)] text-sm md:text-base leading-relaxed">
                 <p>
                   I’m Ataya Najla, an Information Systems graduate from Telkom
-                  University with a strong passion for software development. I
+                  University with an interest in software development and system analysis. I
                   have hands-on experience in building web applications,
                   alongside foundational skills in mobile development and
                   database management. I genuinely enjoy learning new
