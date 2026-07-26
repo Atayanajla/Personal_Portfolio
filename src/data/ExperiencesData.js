@@ -7,7 +7,7 @@ export const allExperiences = [
     date: "Apr 2025 - Dec 2025",
     image: null,
     bullets: [
-      "Input weekly field data from the bridge construction project, including concrete volume, reinforcement steel volume, materials, and total on-site labor utilization.",
+      "Inputted weekly field progress data for the bridge construction project including concrete, reinforcement steel, and material volumes and summarized total on-site labor utilization",
       "Compiling and summarizing periodic progress reports based on field data submissions for the Air Gadang Bridge Construction Project."
     ],
   },
@@ -19,7 +19,7 @@ export const allExperiences = [
     date: "Sep 2023 - Jan 2024",
     image: "/imgs/labwad.jpg",
     bullets: [
-      "Actively managed and mentored 18 students split into dedicated groups across 3 classes. Provided hands-on technical guidance and code debugging to help students overcome development roadblocks. Responsible for official grading and performance evaluation, while also maintaining a collaborative lab environment by supporting students from other groups when needed.",
+      "Actively managed and mentored 18 students across 3 classes, providing technical guidance, code debugging, and official grading, while proactively assisting students and supporting overall laboratory operations",
       "Collaborated within a team to design and develop core educational materials for Module 3. Focused on creating comprehensive guides for PHP CRUD implementation and structuring real-world case studies for student journals to ensure actionable learning.",
       "Worked closely with the media team to design and build standardized visual and administrative assets. Created professional PPT templates, module layouts, and automated photo collection forms, which successfully optimized laboratory workflows and data management.",
     ],
