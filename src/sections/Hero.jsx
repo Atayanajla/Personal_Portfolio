@@ -7,10 +7,10 @@ const Hero = () => {
   // const navigate = useNavigate();
 
   const myProfessions = [
-    "Software Developer",
-    "System Analyst",
-    "Web Developer",
-    "Front-End Developer",
+    "Software Development",
+    "System Analysis",
+    "Web development",
+    "Front-End Development",
     "Tech Enthusiast",
   ];
 
@@ -78,7 +78,7 @@ const Hero = () => {
         >
           <ProfileCard
             name="Ataya Najla"
-            title="Software Developer"
+            title="Software Development"
             handle="atayanajla"
             contactText="Contact Me"
             avatarUrl="/imgs/fotoformal.png"
