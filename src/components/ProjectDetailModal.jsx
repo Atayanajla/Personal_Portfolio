@@ -33,10 +33,10 @@ const ProjectDetailModal = ({ project, onClose }) => {
         className="fixed inset-0 bg-slate-950/85 backdrop-blur-md transition-opacity duration-300 cursor-pointer"
         onClick={onClose}
       />
-      <div className="relative w-full max-w-4xl rounded-2xl border border-slate-800/80 bg-slate-900 text-slate-100 shadow-2xl transition-all duration-300 max-h-full flex flex-col z-10 animate-scaleUp">
+      <div className="relative w-full max-w-4xl rounded-2xl border border-slate-300/60 dark:border-slate-800/80 bg-[var(--bg-portfolio)]/95 text-[var(--text-portfolio)] shadow-2xl transition-all duration-300 max-h-full flex flex-col z-10 animate-scaleUp">
         <button
           onClick={onClose}
-          className="absolute -top-5 -right-2 md:-top-6 md:-right-6 z-50 flex items-center justify-center p-2.5 rounded-full border border-slate-800 bg-slate-900 text-slate-400 hover:text-white hover:bg-slate-800 hover:scale-110 shadow-2xl transition-all duration-300 cursor-pointer group"
+          className="absolute -top-5 -right-2 md:-top-6 md:-right-6 z-50 flex items-center justify-center p-2.5 rounded-full border border-slate-300 dark:border-slate-800 bg-[var(--bg-portfolio)] text-[var(--text-portfolio)]/70 hover:text-[var(--text-portfolio)] hover:bg-slate-200 dark:hover:bg-slate-800 hover:scale-110 shadow-2xl transition-all duration-300 cursor-pointer group"
           title="Close Modal"
         >
           <svg
@@ -55,7 +55,7 @@ const ProjectDetailModal = ({ project, onClose }) => {
         </button>
 
         <div className="overflow-y-auto p-6 md:p-8 space-y-6 scrollbar-thin scrollbar-thumb-slate-800">
-          <div className="relative w-full h-64 md:h-96 rounded-xl overflow-hidden border border-slate-800 bg-slate-950 group/carousel">
+          <div className="relative w-full h-64 md:h-96 rounded-xl overflow-hidden border border-slate-300 dark:border-slate-800 bg-slate-100 dark:bg-slate-950 group/carousel">
             <img
               src={project.images[currentImgIndex]}
               alt={`${project.title} - ${currentImgIndex + 1}`}
@@ -66,7 +66,7 @@ const ProjectDetailModal = ({ project, onClose }) => {
               <>
                 <button
                   onClick={handlePrevImg}
-                  className="absolute left-4 top-1/2 -translate-y-1/2 p-2 rounded-full bg-slate-900/70 text-slate-300 hover:bg-slate-800 hover:text-white backdrop-blur-sm transition-all opacity-0 group-hover/carousel:opacity-100 cursor-pointer"
+                  className="absolute left-4 top-1/2 -translate-y-1/2 p-2 rounded-full bg-[var(--bg-portfolio)]/80 text-[var(--text-portfolio)] hover:bg-blue-500 hover:text-white backdrop-blur-sm transition-all opacity-0 group-hover/carousel:opacity-100 cursor-pointer"
                 >
                   <svg
                     viewBox="0 0 24 24"
@@ -85,7 +85,7 @@ const ProjectDetailModal = ({ project, onClose }) => {
 
                 <button
                   onClick={handleNextImg}
-                  className="absolute right-4 top-1/2 -translate-y-1/2 p-2 rounded-full bg-slate-900/70 text-slate-300 hover:bg-slate-800 hover:text-white backdrop-blur-sm transition-all opacity-0 group-hover/carousel:opacity-100 cursor-pointer"
+                  className="absolute right-4 top-1/2 -translate-y-1/2 p-2 rounded-full bg-[var(--bg-portfolio)]/80 text-[var(--text-portfolio)] hover:bg-blue-500 hover:text-white backdrop-blur-sm transition-all opacity-0 group-hover/carousel:opacity-100 cursor-pointer"
                 >
                   <svg
                     viewBox="0 0 24 24"
@@ -102,7 +102,7 @@ const ProjectDetailModal = ({ project, onClose }) => {
                   </svg>
                 </button>
 
-                <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-1.5 px-3 py-1 rounded-full bg-slate-950/70 backdrop-blur-sm text-[10px] font-medium text-slate-400">
+                <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-1.5 px-3 py-1 rounded-full bg-black/70 backdrop-blur-sm text-[10px] font-medium text-white/70">
                   <span className="text-white">{currentImgIndex + 1}</span> /{" "}
                   {project.images.length}
                 </div>
@@ -111,7 +111,7 @@ const ProjectDetailModal = ({ project, onClose }) => {
           </div>
 
           <div className="space-y-4">
-            <h3 className="text-2xl md:text-3xl font-bold text-white tracking-wide">
+            <h3 className="text-2xl md:text-3xl font-bold text-[var(--text-portfolio)] tracking-wide">
               {project.title}
             </h3>
 
@@ -127,13 +127,13 @@ const ProjectDetailModal = ({ project, onClose }) => {
             </div>
           </div>
 
-          <hr className="border-slate-800/60" />
+          <hr className="border-slate-300/60 dark:border-slate-800/60" />
 
           <div className="space-y-4">
-            <h4 className="text-sm font-bold uppercase tracking-widest text-slate-400">
+            <h4 className="text-sm font-bold uppercase tracking-widest text-[var(--text-portfolio)]/60">
               Project Description
             </h4>
-            <p className="text-sm md:text-base text-slate-300 font-light leading-relaxed whitespace-pre-line">
+            <p className="text-sm md:text-base text-[var(--text-portfolio)]/80 font-light leading-relaxed whitespace-pre-line">
               {project.description}
             </p>
           </div>
@@ -145,7 +145,7 @@ const ProjectDetailModal = ({ project, onClose }) => {
                   href={project.codeLink}
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-flex items-center gap-2 px-5 py-2.5 text-xs font-bold text-white bg-slate-800 hover:bg-slate-700 rounded-xl transition-all cursor-pointer"
+                  className="inline-flex items-center gap-2 px-5 py-2.5 text-xs font-bold text-[var(--text-portfolio)] bg-slate-200 dark:bg-slate-800 hover:bg-slate-300 dark:hover:bg-slate-700 rounded-xl transition-all cursor-pointer"
                 >
                   Source Code
                 </a>
@@ -155,7 +155,7 @@ const ProjectDetailModal = ({ project, onClose }) => {
                   href={project.webLink}
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-flex items-center gap-2 px-5 py-2.5 text-xs font-bold text-white bg-blue-600 hover:bg-blue-500 rounded-xl transition-all cursor-pointer"
+                  className="inline-flex items-center gap-2 px-5 py-2.5 text-xs font-bold text-[var(--text-portfolio)] bg-slate-200 dark:bg-slate-800 hover:bg-slate-300 dark:hover:bg-slate-700 rounded-xl transition-all cursor-pointer"
                 >
                   Live Demo
                 </a>

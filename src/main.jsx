@@ -5,7 +5,7 @@ import './index.css'
 
 import App from './App'
 import Home from './pages/Home'
-import AllProject from './project/AllProject'
+import AllProject from './pages/AllProject'
 
 const router = createBrowserRouter([
   {

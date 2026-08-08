@@ -185,7 +185,7 @@ const Showcase = () => {
                   <div className="p-6 pt-0">
                     <button
                       onClick={() => setSelectedProject(project)}
-                      className="group/btn relative w-full inline-flex items-center justify-center px-4 py-2.5 text-xs font-bold text-white rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 shadow-lg shadow-blue-500/20 hover:shadow-blue-500/30 transition-all duration-300 hover:-translate-y-0.5 cursor-pointer"
+                      className="group/btn relative w-full inline-flex items-center justify-center px-4 py-2.5 text-xs font-bold text-white rounded-xl bg-blue-500 hover:bg-blue-600 shadow-lg shadow-blue-500/20 hover:shadow-blue-500/30 transition-all duration-300 hover:-translate-y-0.5 cursor-pointer"
                     >
                       <span className="relative flex items-center gap-2">
                         Details

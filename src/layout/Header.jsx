@@ -44,8 +44,8 @@ const Header = ({ darkMode, setDarkMode }) => {
   return (
     <>
       <header
-        data-aos="fade-down"
-        data-aos-duration="1000"
+        // data-aos="fade-down"
+        // data-aos-duration="1000"
         className={`fixed top-0 left-0 right-0 z-50 px-6 transition-all duration-300 ${
           isScrolled || isOpen
             ? "py-4 bg-[var(--bg-portfolio)]/95 backdrop-blur-md border-b border-blue-500/30"
@@ -129,7 +129,7 @@ const Header = ({ darkMode, setDarkMode }) => {
       </header>
 
       <div
-        className={`fixed inset-0 top-0 left-0 w-full h-screen bg-[var(--bg-portfolio)] flex flex-col justify-center items-center transition-all duration-300 md:hidden z-40 ${
+        className={`fixed top-20 left-4 right-4 py-8 bg-[var(--bg-portfolio)] flex flex-col justify-center items-center transition-all duration-300 md:hidden z-40 rounded-2xl ${
           isOpen
             ? "opacity-100 translate-y-0 pointer-events-auto"
             : "opacity-0 -translate-y-full pointer-events-none"
@@ -149,7 +149,7 @@ const Header = ({ darkMode, setDarkMode }) => {
                     offset={-80}
                     duration={200}
                     onClick={() => setIsOpen(false)}
-                    className="w-full py-3 rounded-2xl text-lg font-bold text-[var(--text-portfolio)] hover:bg-blue-500 hover:text-white transition-all cursor-pointer block"
+                    className="py-2 rounded-2xl text-lg font-bold text-[var(--text-portfolio)] hover:bg-blue-500 hover:text-white transition-all cursor-pointer block"
                     activeClass="bg-blue-500 !text-white shadow-lg shadow-blue-500/20"
                   >
                     {item.name}
@@ -157,7 +157,7 @@ const Header = ({ darkMode, setDarkMode }) => {
                 ) : (
                   <button
                     onClick={() => handleNavClick(item.target)}
-                    className="w-full py-3 rounded-2xl text-lg font-bold text-[var(--text-portfolio)] hover:bg-blue-500 hover:text-white transition-all cursor-pointer block bg-transparent"
+                    className="py-2 rounded-2xl text-lg font-bold text-[var(--text-portfolio)] hover:bg-blue-500 hover:text-white transition-all cursor-pointer block bg-transparent"
                   >
                     {item.name}
                   </button>

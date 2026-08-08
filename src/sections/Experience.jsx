@@ -24,7 +24,7 @@ const Experience = () => {
       </div>
 
       <div className="relative max-w-5xl mx-auto">
-        <div className="absolute left-4 md:left-1/2 transform md:-translate-x-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-blue-500 via-purple-500 to-slate-800"></div>
+        <div className="absolute left-4 md:left-1/2 transform md:-translate-x-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-cyan-400 via-blue-500 to-slate-800"></div>
 
         <div className="space-y-12 md:space-y-16 relative">
           {visibleExperiences.map((exp, index) => {
