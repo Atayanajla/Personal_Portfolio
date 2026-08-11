@@ -48,8 +48,8 @@ const Hero = () => {
           </h4>
           <p className="max-w-md mx-auto md:mx-0 leading-relaxed">
             Building modern and meaningful digital experiences through code,
-            while continuously learning new technologies to evolve as a software
-            engineer.
+            while continuously exploring new technologies to broaden my skills
+            in software development.
           </p>
 
           {/* <div className="pt-2 flex justify-center md:justify-start">
