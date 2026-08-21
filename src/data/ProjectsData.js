@@ -73,11 +73,7 @@ export const projectsData = [
       "DBeaver",
       "Full-stack",
     ],
-    images: [
-      "/projects/kp1.png",
-      "/projects/kp2.png",
-      "/projects/kp3.png",
-    ],
+    images: ["/projects/kp1.png", "/projects/kp2.png", "/projects/kp3.png"],
     description:
       "This internship project focused on web development, specifically the implementation of monitoring features and input forms for the BPB (Proof of Goods Delivery) website. Developed using the CodeIgniter 4 framework, the project integrated the web application with an Oracle database, utilizing DBeaver for database management, testing, and data validation. The system was designed to support efficient recording and monitoring of goods delivery processes.",
     codeLink: null,
@@ -135,16 +131,13 @@ export const projectsData = [
       "Web Storage",
       "Frontend",
     ],
-    images: [
-      "/projects/dicoding.png",
-      "/projects/dicoding2.png",
-    ],
+    images: ["/projects/dicoding.png", "/projects/dicoding2.png"],
     description:
       "This final project for the Belajar Membuat Front-End Web untuk Pemula course on the Dicoding platform involved developing a frontend web application called Bookshelf App. The project focused on implementing dynamic user interface updates through DOM manipulation using vanilla JavaScript, as well as utilizing Web Storage (localStorage) to store book data locally in the browser, ensuring that the data persists even after the page is reloaded.",
     codeLink: "https://github.com/Atayanajla/bookshelf-Dicoding.git",
     webLink: null,
   },
-    {
+  {
     id: 7,
     title: "Personal Portfolio",
     type: "web",
@@ -155,12 +148,41 @@ export const projectsData = [
       "ReactBits",
       "Frontend",
     ],
-    images: [
-      "/projects/portofolio.png",
-    ],
+    images: ["/projects/portofolio.png"],
     description:
       "This project involves the development of a personal portfolio website that serves as a digital representation of my skills, experiences, and completed projects. The website was built using React.js to create a modular component-based architecture and Tailwind CSS to deliver a modern, responsive design. It also integrates animation components from ReactBits to enhance the user experience with interactive and dynamic visual transitions.",
     codeLink: "https://github.com/Atayanajla/Personal_Portfolio.git",
     webLink: "https://personal-portfolio-ataya-najla.vercel.app/",
+  },
+  {
+    id: 8,
+    title: "PETCARE",
+    type: "web",
+    tags: [
+      "Laravel",
+      "Web Application",
+      "Full-stack Development",
+      "UI/UX Design",
+      "Database Integration",
+      "Team Project",
+    ],
+    images: [
+      "/projects/rpl.png",
+      "/projects/rpl1.png",
+      "/projects/rpl2.png",
+      "/projects/rpl3.png",
+      "/projects/rpl4.png",
+      "/projects/rpl5.png",
+      "/projects/rpl6.png",
+      "/projects/rpl7.png",
+      "/projects/rpl8.png",
+      "/projects/rpl9.png",
+      "/projects/rpl10.png",
+      "/projects/rpl11.png",
+    ],
+    description:
+      "This Rekayasa Perangkat Lunak (RPL) course project was a team-based full-stack web development project focused on building a Petcare platform. The web application was designed to help pet owners consult with veterinarians online, purchase pet medications, and facilitate pet adoption by providing animal information and an online adoption registration process. In this project, I had dual responsibilities in designing the user interface (UI/UX) and implementing the system using the Laravel framework and database integration.",
+    codeLink: null,
+    webLink: null,
   },
 ];
