@@ -84,7 +84,7 @@ const Contact = () => {
           <h4 className="text-xl font-bold text-blue-500">Connect With Me</h4>
           <div className="space-y-4">
             <a
-              href="https://linkedin.com/in/ataya-najla-883160243"
+              href="https://linkedin.com/in/ataya-najla"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-4 p-4 bg-gradient-to-r from-blue-600 via-sky-600 to-blue-700 rounded-2xl text-white shadow-md shadow-blue-600/10 hover:scale-[1.02] transition duration-300 block cursor-pointer group"
