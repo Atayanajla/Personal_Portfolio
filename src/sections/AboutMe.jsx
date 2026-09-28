@@ -107,17 +107,21 @@ const AboutMe = () => {
             colors={["#c084fc", "#f472b6", "#38bdf8"]}
           >
             <div className="p-6 md:p-8 flex flex-col justify-center space-y-5 text-center md:text-left">
-              <h3 h4 className="text-xl md:text-2xl font-bold text-[var(--text-portfolio)]">
+              <h3
+                h4
+                className="text-xl md:text-2xl font-bold text-[var(--text-portfolio)]"
+              >
                 Who Am I?
               </h3>
               <div className="space-y-4 text-[var(--text-portfolio)] text-sm md:text-base leading-relaxed">
                 <p>
                   I’m Ataya Najla, an Information Systems graduate from Telkom
-                  University with an interest in software development and system analysis. I
-                  have hands-on experience in building web applications,
-                  alongside foundational skills in mobile development and
-                  database management. I genuinely enjoy learning new
-                  technologies and continuously improving my development skills.
+                  University with an interest in software development and system
+                  analysis, with knowledge of data management. I have hands-on
+                  experience in building web applications, alongside
+                  foundational skills in mobile development and database
+                  management. I genuinely enjoy learning new technologies and
+                  continuously improving my development skills.
                 </p>
                 <p>
                   Beyond technical skills, I thrive in fast-paced environments

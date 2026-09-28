@@ -19,7 +19,7 @@ export const allExperiences = [
     date: "Sep 2023 - Jan 2024",
     image: "/imgs/labwad.jpg",
     bullets: [
-      "Actively managed and mentored 18 students across 3 classes, providing technical guidance, code debugging, and official grading, while proactively assisting students and supporting overall laboratory operations",
+      "Actively managed and mentored 6 students across 3 classes, providing technical guidance, code debugging, and official grading, while proactively assisting students and supporting overall laboratory operations",
       "Collaborated within a team to design and develop core educational materials for Module 3. Focused on creating comprehensive guides for PHP CRUD implementation and structuring real-world case studies for student journals to ensure actionable learning.",
       "Worked closely with the media team to create standardized visual templates. Created PPT templates, module layouts, and automated photo collection forms, which successfully optimized laboratory workflows and data management.",
     ],
