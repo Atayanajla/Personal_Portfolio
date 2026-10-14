@@ -32,9 +32,9 @@ export const allExperiences = [
     date: "Jul 2023 - Sep 2023",
     image: null,
     bullets: [
-      "Developed features for the monitoring application using CodeIgniter 4 to support internal business processes, specifically in monitoring goods delivery and documentation.",
-      "Handled the integration between the application's back-end and the company’s Oracle Database using DBeaver to ensure secure and accurate data retrieval.",
-      "Performed rigorous testing to eliminate bugs and ensure smooth functionality before deployment.",
+      "Built a full-stack internal web application with CodeIgniter 4 to monitor goods delivery documents, including a data table view and a form for creating delivery records.",
+      "Connected the application to the company’s Oracle Database and used DBeaver to explore and manage the data.",
+      "Tested each feature manually to verify it worked as expected before handover",
     ],
   },
   {
