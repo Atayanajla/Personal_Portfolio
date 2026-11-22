@@ -8,7 +8,7 @@ const AboutMe = () => {
     <section id="about" className="max-w-7xl mx-auto px-6 pb-16">
       <div className="w-full mb-15 [&_*]:fill-current">
         <CurvedLoop
-          marqueeText="✦About Me✦"
+          marqueeText="✦ About Me ✦"
           speed={2}
           curveAmount={0}
           direction="right"
